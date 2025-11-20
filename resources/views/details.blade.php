@@ -63,6 +63,10 @@
                 <td>
                     <input type="number" step="0.01" name="price" value="{{ old('price', $product->price) }}" required>
                 </td>
+                <tr>
+                <th>Descripción</th>
+                    <td>{{ $product->description }}</td>
+                </tr>
             </tr>
         </table>
 
